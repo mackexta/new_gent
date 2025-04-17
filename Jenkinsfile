@@ -29,8 +29,10 @@ pipeline {
        }
         stage('Quality Gate') {
           steps {
-                 waitForQualityGate abortPipeline: false
-              }
+            timeout(time: 2, unit: 'MINUTES') {
+              waitForQualityGate abortPipeline: true
+            }
+          }
         }
         
         stage('push to nexus') {
