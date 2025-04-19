@@ -2,7 +2,7 @@
   <head>
     <title>Welcome to my web page</title>
   </head>
-  <body bgcolor="#7FFF00">
+  <body bgcolor="#D3D3D3">
     <h1>Hello from Decembar cohort is the best</h1>
     <!--Form declaration. Must have an action attribute -->
         <form action="C:/JonnyJava/FirstJava.html/profile.html" method="post">
